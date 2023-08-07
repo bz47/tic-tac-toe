@@ -53,7 +53,10 @@ body {
 
 @media only screen and (max-width: 540px) {
   .square {
-    height: 10vh;
-    width: 10vh;
+    height: 75px;
+    width: 75px;
+  }
+  .game {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=App.css.map */
