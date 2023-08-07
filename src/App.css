@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.square {
+  background: #fff;
+  color: black;
+  border: 1px solid #999;
+  float: left;
+  font-size: 10vh;
+  font-weight: bold;
+  line-height: 34px;
+  height: 20vh;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 20vh;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 540px) {
+  .square {
+    height: 10vh;
+    width: 10vh;
+  }
+}/*# sourceMappingURL=App.css.map */
