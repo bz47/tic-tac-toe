@@ -52,11 +52,11 @@ body {
 
 @media only screen and (max-width: 540px) {
   .square {
-    height: 10vh;
-    width: 10vh;
+    height: 50px;
+    width: 50px;
   }
 
-  .game-info {
-    display: none;
+  .game {
+    flex-direction: column;
   }
 }
